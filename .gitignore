@@ -1,0 +1,19 @@
+# IDEs
+.vs
+.idea
+*.user
+
+# Too personal
+resources/test
+resources/voices
+resources/*.md
+resources/*.psd
+resources/*.jpg
+resources/муз-квиз.pdf
+scripts
+eugenebot2021/messages.json
+eugenebot2021/messages_test.json
+
+# Builds
+eugenebot2021/bin
+eugenebot2021/obj

@@ -1,0 +1,99 @@
+﻿[
+    {
+        "name": "unique_message_name",
+        "sendAt": {
+            "hours": 16,
+            "minutes": 20
+        },
+        "sendAtLocation": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        },
+        "sendOnText": "trigger word",
+        "nextAfter": 0,
+        "nextName": "next_message_name",
+        "text": "text or caption goes in here in HTML format",
+        "image": "absolute path to image",
+        "sticker": "absolute path to webp",
+        "voice": "absolute path to ogg",
+        "keyboard": [
+            "button caption #1",
+            "button caption #2"
+        ],
+        "geotag": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        },
+        "video": "absolute path to video or gif",
+        "quiz": {
+            "question": "Have you guessed what goes here?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctOptionId": 0,
+            "replyName": "reply_message_name"
+        }
+    },
+    {
+        "name": "scheduled_message_sequence_1",
+        "sendAt": {
+            "hours": 10,
+            "minutes": 42
+        },
+        "nextAfter": 120,
+        "nextName": "scheduled_message_sequence_2",
+        "text": "This is the first of many messages to come"
+    },
+    {
+        "name": "scheduled_message_sequence_2",
+        "text": "I was scheduled 2 minutes after scheduled_message_sequence_1"
+    },
+    {
+        "name": "codeword_test",
+        "sendOnText": "пидор",
+        "text": "нет ты"
+    },
+    {
+        "name": "new_message_template",
+        "sendAt": {
+            "hours": 0,
+            "minutes": 0
+        },
+        "sendAtLocation": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        },
+        "sendOnText": "",
+        "nextAfter": 0,
+        "nextName": "",
+        "text": "",
+        "image": "",
+        "sticker": "",
+        "voice": "",
+        "keyboard": [
+            "",
+            ""
+        ],
+        "buttons": [
+            {
+                "text": "",
+                "callbackData": ""
+            }
+        ],
+        "geotag": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        },
+        "video": "",
+        "quiz": {
+            "question": "",
+            "options": [
+                "",
+                ""
+            ],
+            "correctOptionId": 0,
+            "replyName": ""
+        }
+    }
+]
